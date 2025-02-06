@@ -17,7 +17,7 @@ export const Home = () => {
 
   useEffect(() => {
     const initData = async (): Promise<void> => {
-      if (!storedImages) {
+      if (!storedImages.length) {
         // Getting data from json
         const imagesInfo = await fetchData<ImageInfo[]>('images.json');
         const images = imagesInfo.map(imageInfo => ({ imageInfo, imageState: { blur: 0, deleted: false } }))
