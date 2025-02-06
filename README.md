@@ -1,4 +1,4 @@
-`# React + Vite Technical Test
+# React + Vite Technical Test
 
 This is a React project set up with [Vite](https://vitejs.dev/). The project was created to showcase a simple application for a technical test.
 
